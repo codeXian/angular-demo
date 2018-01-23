@@ -9,6 +9,7 @@ import { HeroService } from './hero.service';
   providers: [HeroService]
 })
 export class AppComponent implements OnInit {
+  // ceshi
   title = 'Tour of Heroes';
   heroes: Hero[];
   selectedHero: Hero;
